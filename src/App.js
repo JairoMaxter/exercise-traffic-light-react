@@ -1,19 +1,13 @@
-import { useState } from "react";
+import React from 'react';
+import Light from './Light';
+import './styles.css';
 
-const App = () => {
-
-    return (
-        <>
-            <div className="body">
-                <div className="redligh">
-                </div>
-                <div className="yellowligh">
-                </div>
-                <div className="greenligh">
-                </div>
-            </div>
-        </>
+const App =()=>{
+    return(
+        <Light/>
     )
 }
 
-export default App;
+
+
+export default App
